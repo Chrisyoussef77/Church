@@ -94,8 +94,8 @@ class _UserHomeScreenState extends State<UserHomeScreen> {
                               borderRadius: BorderRadius.circular(8),
                               child: Image.asset(
                                 'assets/logo2.jpeg',
-                                height: 50,
-                                width: 50,
+                                height: 170,
+                                width: 170,
                                 fit: BoxFit.cover,
                               ),
                             ),
@@ -105,11 +105,11 @@ class _UserHomeScreenState extends State<UserHomeScreen> {
                         Column(
                           children: [
                             Image.asset('assets/logo.jpeg',
-                                width: 50, height: 50),
+                                width: 140, height: 140),
                             const Text(
                               'كنيسه العذراء مريم والسمائيين',
                               style: TextStyle(
-                                fontSize: 8,
+                                fontSize: 16,
                                 color: Color(0xFF5C3D2E),
                               ),
                               textDirection: TextDirection.rtl,

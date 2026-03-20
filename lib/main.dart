@@ -12,8 +12,8 @@ Future<void> main() async {
 
 await Supabase.initialize
 (
-  url: 'https://pgwmuunzgnsfxhtjhack.supabase.co',
-  anonKey: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InBnd211dW56Z25zZnhodGpoYWNrIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzI5MDkwMzIsImV4cCI6MjA4ODQ4NTAzMn0.TbvFR-b3aSfsf0HMCuqkZgJ_Y434bakA1xn3aSXQ1Xg',
+  url: 'https://ydarvzlrrwszhtdwoeyj.supabase.co',
+  anonKey: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InlkYXJ2emxycndzemh0ZHdvZXlqIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzQwNDE4NTcsImV4cCI6MjA4OTYxNzg1N30.rz3rfIrUTEsHEts28p6XgLg4uOdjl8hs99GQrU2OSyY',
   authOptions: const FlutterAuthClientOptions
   (
     authFlowType: AuthFlowType.implicit, // ← ضيف دي

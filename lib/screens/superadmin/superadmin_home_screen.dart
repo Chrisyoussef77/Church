@@ -454,8 +454,8 @@ class _SuperAdminHomeScreenState extends State<SuperAdminHomeScreen> {
                               borderRadius: BorderRadius.circular(8),
                               child: Image.asset(
                                 'assets/logo2.jpeg', // Change this to your image name
-                                height: 60,
-                                width: 60,
+                                height: 170,
+                                width: 170,
                                 fit: BoxFit.cover,
                               ),
                             ),
@@ -465,11 +465,11 @@ class _SuperAdminHomeScreenState extends State<SuperAdminHomeScreen> {
                         Column(
                           children: [
                             Image.asset('assets/logo.jpeg',
-                                width: 60, height: 60),
+                                width:140, height: 140),
                             const Text(
                               'كنيسه العذراء مريم والسمائيين',
                               style: TextStyle(
-                                fontSize: 10,
+                                fontSize: 16,
                                 color: Color(0xFF5C3D2E),
                               ),
                               textDirection: TextDirection.rtl,

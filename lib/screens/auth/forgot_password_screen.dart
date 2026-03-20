@@ -86,8 +86,8 @@ class _ForgotPasswordScreenState extends State<ForgotPasswordScreen> {
                           borderRadius: BorderRadius.circular(8),
                           child: Image.asset(
                             'assets/logo2.jpeg',
-                            height: 50,
-                            width: 50,
+                            height: 170,
+                            width: 170,
                             fit: BoxFit.cover,
                           ),
                         ),
@@ -97,11 +97,11 @@ class _ForgotPasswordScreenState extends State<ForgotPasswordScreen> {
                   // RIGHT SIDE - logo.jpeg
                   Column(
                     children: [
-                      Image.asset('assets/logo.jpeg', width: 55, height: 55),
+                      Image.asset('assets/logo.jpeg', width: 140, height: 140),
                       const Text(
                         'كنيسه العذراء مريم والسمائين',
                         style: TextStyle(
-                          fontSize: 9,
+                          fontSize: 16,
                           color: Color(0xFF5C3D2E),
                         ),
                         textDirection: TextDirection.rtl,

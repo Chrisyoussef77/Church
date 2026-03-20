@@ -158,7 +158,7 @@ class _LoginScreenState extends State<LoginScreen> {
                         const Text(
                           'مدرسه تهدف لتعليم الالحان والطقوس الكنسيه',
                           style: TextStyle(
-                            fontSize: 11,
+                            fontSize: 16,
                             color: Color(0xFF8B6914),
                           ),
                           textDirection: TextDirection.rtl,
@@ -169,8 +169,8 @@ class _LoginScreenState extends State<LoginScreen> {
                           borderRadius: BorderRadius.circular(8),
                           child: Image.asset(
                             'assets/logo2.jpeg',
-                            height: 50,
-                            width: 50,
+                            height: 170,
+                            width: 170,
                             fit: BoxFit.cover,
                           ),
                         ),
@@ -182,8 +182,8 @@ class _LoginScreenState extends State<LoginScreen> {
                     children: [
                       Image.asset(
                         'assets/logo.jpeg',
-                        width: 55,
-                        height: 55,
+                        width: 140,
+                        height: 140,
                       ),
                       const Text(
                         'كنيسه العذراء مريم والسمائيين',
